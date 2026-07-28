@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for spring-cloud-config-server" enabled="true">
+      <profile name="Annotation profile for currency-exchange-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -11,12 +11,14 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
         <module name="limits-service" />
+        <module name="currency-exchange-service" />
         <module name="spring-cloud-config-server" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="currency-exchange-service" options="-parameters" />
       <module name="limits-service" options="-parameters" />
       <module name="spring-cloud-config-server" options="-parameters" />
     </option>
