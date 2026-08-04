@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07c2637-69a3-42da-b83e-f8d63dfb0957" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/advanced-microservice-architecture.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/src/main/java/com/in28minutes/microservices/limits_service/LimitsServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/src/main/java/com/in28minutes/microservices/limits_service/bean/Limits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/src/main/java/com/in28minutes/microservices/limits_service/configuration/Configuration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/src/main/java/com/in28minutes/microservices/limits_service/controller/LimitsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/src/test/java/com/in28minutes/microservices/limits_service/LimitsServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/com/in28minutes/microservices/spring_cloud_config_server/SpringCloudConfigServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/test/java/com/in28minutes/microservices/spring_cloud_config_server/SpringCloudConfigServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/in28minutes/microservices/currency_exchange_service/CurrencyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/in28minutes/microservices/currency_exchange_service/CurrencyExchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/in28minutes/microservices/currency_exchange_service/CurrencyExchangeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/in28minutes/microservices/currency_exchange_service/CurrencyExchangeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +37,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.CurrencyExchangeServiceApplication (1).executor": "Run",
     "Application.CurrencyExchangeServiceApplication.executor": "Run",
+    "Application.CurrencyExchangeServiceApplication8000.executor": "Run",
     "Application.LimitsServiceApplication.executor": "Run",
     "Application.SpringCloudConfigServerApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -89,20 +63,7 @@
       <recent name="C:\Users\Administrator\Desktop\advanced-microservice-architecture\currency-exchange-service\src\main\java\com.in28minutes.microservices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CurrencyExchangeServiceApplication (1)">
-    <configuration name="CurrencyExchangeServiceApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.in28minutes.microservices.currency_exchange_service.CurrencyExchangeServiceApplication" />
-      <module name="currency-exchange-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.in28minutes.microservices.currency_exchange_service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CurrencyExchangeServiceApplication8000">
     <configuration name="CurrencyExchangeServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.in28minutes.microservices.currency_exchange_service.CurrencyExchangeServiceApplication" />
       <module name="advanced-microservice-architecture" />
@@ -116,9 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CurrencyExchangeServiceApplication8000" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.microservices.currency_exchange_service.CurrencyExchangeServiceApplication" />
+      <module name="currency-exchange-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.microservices.currency_exchange_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CurrencyExchangeServiceApplication8000" />
+      <item itemvalue="Application.CurrencyExchangeServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CurrencyExchangeServiceApplication (1)" />
         <item itemvalue="Application.CurrencyExchangeServiceApplication" />
       </list>
     </recent_temporary>
