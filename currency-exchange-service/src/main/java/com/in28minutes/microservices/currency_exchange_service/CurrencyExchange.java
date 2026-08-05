@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 
 @Entity
-@Component
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
