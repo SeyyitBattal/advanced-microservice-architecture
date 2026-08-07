@@ -18,7 +18,7 @@ public class CurrencyExchangeController {
     private Environment environment;
 
     @GetMapping("/currency-exchange/from/{from}/to/{to}")
-    public CurrencyExchange retrieveExcahngeValue(
+    public CurrencyExchange retrieveExchangeValue(
             @PathVariable String from,
             @PathVariable String to) {
 
