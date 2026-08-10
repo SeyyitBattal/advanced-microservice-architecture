@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07c2637-69a3-42da-b83e-f8d63dfb0957" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com.in28minutes.microservices.currency_conversion_service/CurrencyExchangeProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-conversion-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com.in28minutes.microservices.currency_conversion_service/CurrencyConversionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com.in28minutes.microservices.currency_conversion_service/CurrencyConversionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com.in28minutes.microservices.currency_conversion_service/CurrencyConversionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com.in28minutes.microservices.currency_conversion_service/CurrencyConversionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/in28minutes/microservices/currency_exchange_service/CurrencyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/in28minutes/microservices/currency_exchange_service/CurrencyExchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +82,7 @@
       <recent name="C:\Users\Administrator\Desktop\advanced-microservice-architecture\currency-exchange-service\src\main\java\com.in28minutes.microservices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CurrencyExchangeServiceApplication8000">
+  <component name="RunManager" selected="Application.CurrencyConversionServiceApplication">
     <configuration name="CurrencyConversionServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.in28minutes.microservices.currency_conversion_service.CurrencyConversionServiceApplication" />
       <module name="currency-conversion-service" />
