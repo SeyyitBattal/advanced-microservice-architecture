@@ -43,16 +43,13 @@ public class CurrencyConversionController {
 
 
 
-
-
-
     @GetMapping("/currency-conversion-feign/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversion calculateCurrencyConversionFeign(
             @PathVariable String from,
             @PathVariable String to,
             @PathVariable BigDecimal quantity) {
 
-        CurrencyExchange currencyConversion = proxy.retrieveExchangeValue(from, to);
+        CurrencyConversion currencyConversion = proxy.retrieveExchangeValue(from, to);
 
         return new CurrencyConversion(
                 currencyConversion.getId(),
