@@ -1,6 +1,5 @@
 package com.in28minutes.microservices.currency_conversion_service;
 
-import com.in28minutes.microservices.currency_exchange_service.CurrencyExchange;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
