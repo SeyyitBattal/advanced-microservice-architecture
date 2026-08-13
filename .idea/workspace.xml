@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f07c2637-69a3-42da-b83e-f8d63dfb0957" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,9 +157,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.CurrencyExchangeServiceApplication" />
         <item itemvalue="Application.CurrencyConversionServiceApplication" />
         <item itemvalue="Application.NamingServerApplication" />
-        <item itemvalue="Application.CurrencyExchangeServiceApplication" />
       </list>
     </recent_temporary>
   </component>
